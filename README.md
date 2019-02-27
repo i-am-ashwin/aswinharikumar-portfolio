@@ -1,12 +1,12 @@
 # My Portfolio
 
 
-##TODO
-Add All Details.
-Add Animations.
-Add Social Media Information.
-Move all hardcoded data to file
-Add Dark Mode.
+## TODO
+ - Add All Details.
+ - Add Animations.
+ - Add Social Media Information.
+- Move all hardcoded data to file
+- Add Dark Mode.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
