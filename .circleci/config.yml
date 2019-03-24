@@ -72,7 +72,7 @@ jobs:
             # Deploy to the S3 bucket corresponding to the current branch
             - run:
                 name: Deploy to S3
-                command:  aws --region eu-west-2 s3 sync dist s3://project-dev/ --delete
+                command:  aws --region ap-south-1 s3 sync dist s3://aswinharikumar/ --delete
 workflows:
     version: 2
     # The build and deploy workflow
