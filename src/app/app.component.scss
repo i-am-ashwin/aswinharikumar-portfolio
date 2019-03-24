@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900');
+
+.left-panel {
+  font-family: "Playfair Display", serif;
+  font-size: 2.9vw;
+  letter-spacing: -2px;
+  line-height: 110%;
+  font-family: Semibold;
+  position: fixed;
+  top: 34%;
+  left: 10%;
+}
+
+.top-lg{
+  top: 40vh;
+}
+.details-panel {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  left: 50%;
+  right: 10%;
+  padding-bottom: 34vh;
+}
+
+@media screen and (max-width:667px) {
+  h1 {
+    font-size: 68px;
+    font-size: 18vw
+  }
+.emoji-sm{
+  height: 25px !important;
+  width: 25px !important;
+}
+.top-sm{
+  top: 100vh !important;
+}
+  h2 {
+    font-size: 24px;
+    font-size: 6.4vw
+  }
+
+  p {
+    font-size: 18px;
+    font-size: 4.8vw
+  }
+
+  .details-panel {
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 10%
+  }
+}
+.emoji-wave {
+height: 40px;
+width: 40px;
+animation:  wave;
+animation-duration: 1s;
+animation-fill-mode: both;
+}
+.emoji-wave:hover{
+  animation: wave;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+@keyframes wave {
+  from {
+    transform: none;
+  }
+
+  15% {
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+
+  30% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
+  }
+
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
+  }
+
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
+  }
+
+  to {
+    transform: none;
+  }
+}
+.text-black{
+  color: black
+}
+.text-black:hover{
+  color: #676666;
+}
+.text-black:visited{
+  color: #242b5d;
+}
