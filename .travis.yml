@@ -13,9 +13,9 @@ script:
 - ng build --prod --base-href https://ashwinishere.github.io/aswinharikumar-portfolio/
 - mv dist/index.html dist/404.html
 deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: dist/
-  on:
-    branch: master
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: dist/
+    on:
+      branch: master
