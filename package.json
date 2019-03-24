@@ -1,6 +1,6 @@
 {
-  "name": "aswinharikumar",
-  "version": "0.0.1",
+  "name": "aswinharikumar_web_app",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
